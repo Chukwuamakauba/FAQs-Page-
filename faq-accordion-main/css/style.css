@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: #f3e7fb;
+}
+
+.design-container {
+  background-color: white;
+  margin: 130px 37px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.iconh2 {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 8%;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btnminus {
+  display: flex;
+  gap: 50px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.icon-minus {
+  width: 10%;
+  align-content: flex-end;
+  align-items: center;
+}
+
+p {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.btnplus1 {
+  display: flex;
+  gap: 68px;
+}
+
+.icon-plus1 {
+  width: 11%;
+  align-items: center;
+}
+
+.btnplus2 {
+  display: flex;
+  gap: 40px;
+}
+
+.icon-plus2 {
+  width: 11.5%;
+  align-items: center;
+}
+
+.btnplus3 {
+  display: flex;
+  gap: 54px;
+}
+
+.icon-plus {
+  width: 11.7%;
+}
+
+@media only screen and (min-width: 375px) {
+  .design-container {
+    background-color: white;
+    margin: 170px 70px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .design-container {
+    background-color: white;
+    margin: 170px 90px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: #f3e7fb;
+  }
+  .design-container {
+    background-color: white;
+    margin: 105px 120px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 48%;
+    margin-left: 200px;
+  }
+  .iconh2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .icon {
+    width: 8%;
+  }
+  .h2 {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .btnminus {
+    display: flex;
+    gap: 60px;
+  }
+  button {
+    background-color: white;
+    border: none;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    word-spacing: 0.2px;
+  }
+  .icon-minus {
+    width: 6%;
+    align-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+  }
+  p {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 9px;
+  }
+  .btnplus1 {
+    display: flex;
+    gap: 190px;
+  }
+  .icon-plus1 {
+    width: 6.6%;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .btnplus2 {
+    display: flex;
+    gap: 43px;
+  }
+  .icon-plus2 {
+    width: 6.9%;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .btnplus3 {
+    display: flex;
+    gap: 71px;
+  }
+  .icon-plus {
+    width: 7%;
+    padding-top: 15px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .design-container {
+    background-color: white;
+    margin: 140px 120px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 36%;
+    margin-left: 320px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .design-container {
+    background-color: white;
+    margin: 240px 120px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    margin-left: 520px;
+  }
+  .iconh2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .icon {
+    width: 8%;
+  }
+  .h2 {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .btnminus {
+    display: flex;
+    gap: 70px;
+  }
+  button {
+    background-color: white;
+    border: none;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    word-spacing: 0.2px;
+  }
+  .icon-minus {
+    width: 6%;
+    align-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+  }
+  p {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 9px;
+  }
+  .btnplus1 {
+    display: flex;
+    gap: 225px;
+  }
+  .icon-plus1 {
+    width: 6.6%;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .btnplus2 {
+    display: flex;
+    gap: 57px;
+  }
+  .icon-plus2 {
+    width: 6.9%;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .btnplus3 {
+    display: flex;
+    gap: 88px;
+  }
+  .icon-plus {
+    width: 7%;
+    padding-top: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
